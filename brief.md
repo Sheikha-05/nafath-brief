@@ -33,6 +33,5 @@ Evidence: CISA, *Mitigating Log4Shell and Other Log4j-Related Vulnerabilities*, 
 
 Resource: [CISA — Mitigating Log4Shell and Other Log4j-Related Vulnerabilities](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a)
 
-Evidence from the CISA resource, “Mitigating Log4Shell and Other Log4j-Related Vulnerabilities,” under the Mitigations section: “patching or updating Java is not enough, you must upgrade the Log4j library itself.”
 ## Open Question
 How can the provider continuously monitor third-party software, AI models, and network dependencies to detect newly discovered vulnerabilities, verify affected components through SBOM data, and prioritize remediation before attackers exploit them?
