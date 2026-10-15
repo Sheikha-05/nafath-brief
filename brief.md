@@ -13,7 +13,7 @@ Resource: NIST — Adversarial Machine Learning - https://csrc.nist.gov/pubs/ai/
 ## Mobile 
 The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications, including data storage, cryptography, authentication, network communication, platform interaction, code quality, resilience, and privacy. Teams use these requirements to define an assessment scope and verify an app through security testing, supported by the OWASP Mobile Application Security Testing Guide (MASTG). Findings help developers identify weaknesses and demonstrate which requirements have been tested and met.
 
-Resource: OWASP Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
+Resource: Using Non-Standard APIs for Security - https://mas.owasp.org/MASWE/MASVS-CODE/MASWE-0047/
 ## Networking
 BGP route hijacking occurs when a network announces an IP prefix it is not authorized to originate, potentially redirecting traffic through an unintended network or causing disruption. RPKI supports Route Origin Validation using cryptographically signed Route Origin Authorizations (ROAs), which identify authorized origin autonomous systems for prefixes. Networks can reject or deprioritize invalid announcements. However, RPKI origin validation does not verify every AS along the route or prevent all routing attacks, misconfigurations, or traffic interception.
 
