@@ -31,7 +31,5 @@ A common misconception is that updating Java alone fixes Log4Shell. However, CVE
 
 Evidence: CISA, Mitigating Log4Shell and Other Log4j-Related Vulnerabilities, under the “Mitigations” section, explains that updating Java alone is insufficient and that the Log4j library itself must be upgraded.
 
-Resource: [CISA — Mitigating Log4Shell and Other Log4j-Related Vulnerabilities](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a)
-
 ## Open Question
 How can the provider continuously monitor third-party software, AI models, and network dependencies to detect newly discovered vulnerabilities, verify affected components through SBOM data, and prioritize remediation before attackers exploit them?
