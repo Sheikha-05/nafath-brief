@@ -5,11 +5,11 @@ Trust is not enough: every component must be verified. A national service provid
 ## Software
 The Twelve-Factor App methodology recommends storing deployment-specific configuration in environment variables, separate from application code. This includes service credentials, database connections, and environment-specific settings. Keeping secrets out of source code reduces accidental exposure through public repositories, code reviews, and version history. Production systems should also use a managed secrets store where appropriate, with restricted access and regular credential rotation.
 
-Resource: The Twelve-Factor App — III. Config - https://12factor.net/config
+Resource: Cloud Native ChatOps Development — https://hte.hu/documents/10180/4734660/Adamek_Adam-Dolgozat.pdf
 ## AI
 Adversarial machine-learning attacks target different stages of an AI system. Poisoning manipulates training data or the learning process to influence the model before deployment. Evasion changes inputs at inference time to cause incorrect predictions. Privacy attacks attempt to reveal sensitive information about training data, while abuse or extraction attacks may exploit model access to obtain capabilities or information. Defences should match the attack type and the system’s lifecycle.
 
-Resource: NIST — Adversarial Machine Learning - https://csrc.nist.gov/pubs/ai/100/2/e2025/final
+Resource: NIST — Adversarial Machine Learning - https://csrc.nist.gov/news/2023/nist-ai-100-2-draft-available-for-comment
 ## Mobile 
 The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications, including data storage, cryptography, authentication, network communication, platform interaction, code quality, resilience, and privacy. Teams use these requirements to define an assessment scope and verify an app through security testing, supported by the OWASP Mobile Application Security Testing Guide (MASTG). Findings help developers identify weaknesses and demonstrate which requirements have been tested and met.
 
@@ -17,7 +17,7 @@ Resource: Using Non-Standard APIs for Security - https://mas.owasp.org/MASWE/MAS
 ## Networking
 BGP route hijacking occurs when a network announces an IP prefix it is not authorized to originate, potentially redirecting traffic through an unintended network or causing disruption. RPKI supports Route Origin Validation using cryptographically signed Route Origin Authorizations (ROAs), which identify authorized origin autonomous systems for prefixes. Networks can reject or deprioritize invalid announcements. However, RPKI origin validation does not verify every AS along the route or prevent all routing attacks, misconfigurations, or traffic interception.
 
-Resource: RFC 6811 — BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811.html
+Resource: Proactive Defense Mechanism  - https://ieeexplore.ieee.org/abstract/document/11360431
 ## Cybersecurity
 Log4Shell (CVE-2021-44228) was a critical remote-code-execution vulnerability in Apache Log4j 2, a widely used Java logging library. Certain message lookups could trigger attacker-controlled JNDI connections, allowing code execution on vulnerable systems. Its severity came from remote exploitability, broad software exposure, and the potential for severe compromise. The primary fix is to upgrade affected Log4j deployments to a patched version, identify embedded copies, verify remediation, and investigate possible exploitation. Updating Java alone is not sufficient.
 
