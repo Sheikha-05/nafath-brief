@@ -2,5 +2,5 @@
 - 2079469 overview: connect the six subtopics
 - 519efe3 research: software, ai, mobile
 - 4030279 research: networking, cybersecurity, data
--  analysis: misconception and open question
+- d36e828 analysis: misconception and open question
 -  revise: overview
